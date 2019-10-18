@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/comment/comment",
+    "pages/profile/profile",
+    "pages/map/map",
+    "pages/mymovie/mymovie",
+    "pages/movieDetail/movieDetail",
+    "pages/movielist/movielist"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "热门电影",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#d1d1d1",
+    "selectedColor": "#333333",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "电影",
+      "iconPath": "images/movie.png",
+      "selectedIconPath": "images/movie_active.png"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "text": "地图",
+      "iconPath": "images/map.png",
+      "selectedIconPath": "images/map_active.png"
+    },
+    {
+      "pagePath": "pages/mymovie/mymovie",
+      "text": "喜欢",
+      "iconPath": "images/love.png",
+      "selectedIconPath": "images/love_active.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "个人中心",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile_active.png"
+    }
+    ]
+  }
+}

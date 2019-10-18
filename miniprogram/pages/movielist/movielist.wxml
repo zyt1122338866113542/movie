@@ -1,0 +1,11 @@
+<!--pages/movielist/movielist.wxml-->
+<text>pages/movielist/movielist.wxml</text>
+<view class="container" wx:for="{{list}}" wx:key="index">
+  <!-- 显示电影图片 -->
+  <image wx:for="{{item.fileIds}}" wx:key="index" src="{{item}}"></image>
+  <!-- 电影名称 -->
+  <text>电影名称:{{item.name}}</text>
+  <!-- 评论 -->
+  <text>评论:{{item.msg}}</text>
+  <text></text>
+</view>

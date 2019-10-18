@@ -1,0 +1,38 @@
+/* pages/home/home.wxss */
+/* 一步电影 */
+
+/* 1.最外层元素 */
+.movie{
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+/* 2.左侧图片 */
+.movie-img{
+width: 200rpx;  /*图片的响应式宽度*/
+height: 300rpx;
+margin-right: 20rpx;  /*和右侧的图片之间的间距*/
+}
+/* 3.电影的介绍 */
+.movie-info{
+  flex: 1;   /*将右侧的区域填满*/
+  font-size: 28rpx;
+  line-height: 1.8;  /*原来行高的1.8倍*/
+}
+/* 4.电影的标题 */
+.movie-title{
+  color: #666;
+  font-size: 40rpx;
+}
+/* 5.电影评分 */
+.movie-score{
+  color: #faaf00;
+}
+/* 6.详情按钮 */
+.movie-comment{
+  height: 60rpx;
+  background: #e54847;
+  color: #fff;
+  font-size: 26rpx;
+  margin-top: 120rpx;
+}

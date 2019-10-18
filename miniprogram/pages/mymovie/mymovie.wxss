@@ -1,0 +1,24 @@
+/* pages/mymovie/mymovie.wxss */
+/* 1.收藏按钮 */
+.myinfo{
+  height: 50rpx;
+  color: #fff;
+  font-size: 14rpx;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.name{
+  width: 100%;
+}
+.love{
+  width: 100%;
+}
